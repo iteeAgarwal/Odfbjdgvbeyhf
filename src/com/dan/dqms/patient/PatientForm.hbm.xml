@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated May 20, 2014 12:11:24 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+	<class name="org.dqms.db.Patient" table="patient_details">
+		<meta attribute="class-description">
+			This class contains the Doctor detail.
+		</meta>
+		<id name="patient_id" column="patient_id">
+			<generator class="increment" />
+		</id>
+
+         <property name="patient_aid" column="patient_aid"
+			type="string" />
+		<property name="patient_name" column="patient_name" type="string" />
+
+		<property name="id_card_no" column="id_card_no" type="string" />
+
+		<property name="rfid_no" column="rfid_no" type="string" />
+
+		<property name="phone_no" column="phone_no" type="string" />
+
+		<property name="room_id" column="room_id" type="int" />
+
+		<property name="doctor_id" column="doctor_id" type="int" />
+
+		<property name="depart_id" column="depart_id" type="int" />
+
+		<property name="last_check_time" column="last_check_time"
+			type="long" />
+
+		<property name="insurance" column="insurance" type="boolean" />
+
+
+
+
+	</class>
+</hibernate-mapping>

@@ -1,0 +1,26 @@
+
+
+There are define user roles in database :-
+
+ 0 : no role (default)
+ 1 : Super User
+ 2 : doctor
+ 3 : Token Issuer
+ 4 : Admin
+ 5 : HOD
+			
+			
+There are define flags
+ 
+ 0 : no role (default)
+ 1 : Walk-in
+ 2 : Appointment	
+ 
+ 
+ patients flags
+ 
+ 0 : no means
+ 1 : called
+ 2 : skip
+ 3 : treat 
+ 4 : cancel									

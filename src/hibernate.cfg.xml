@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE hibernate-configuration SYSTEM 
+    "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+	<session-factory>
+		<property name="hbm2ddl.auto">update</property>  
+		<property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+		<property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+
+		<!-- Assume test is the database name -->
+		<property name="hibernate.connection.url">jdbc:mysql://localhost:3306/dqms</property>
+		<property name="hibernate.connection.username">root</property>
+		<property name="hibernate.connection.password">rootroot</property>
+         <!-- List of XML mapping files -->
+		
+		<mapping resource="com/dan/dqms/patient/PatientForm.hbm.xml" />
+		<mapping resource="com/dan/dqms/token/TokenForm.hbm.xml" />
+		<mapping resource="com/dan/dqms/rooms/RoomForm.hbm.xml" />
+		<mapping resource="com/dan/dqms/department/DeptForm.hbm.xml" />
+		<mapping resource="com/dan/dqms/token/group/TokenGroupForm.hbm.xml" />
+		<mapping resource="com/dan/dqms/mdu/group/MDUGroupForm.hbm.xml" />
+		<mapping resource="com/dan/dqms/user/userForm.hbm.xml" />
+		<mapping resource="com/dan/dqms/setting/SettingsForm.hbm.xml"/>
+
+	</session-factory>
+</hibernate-configuration>

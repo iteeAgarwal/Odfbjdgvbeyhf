@@ -1,0 +1,744 @@
+/* Visit http://www.menucool.com/horizontal/javascript-menu for source code and other menu CSS templates */
+body {
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+
+#header1 {
+	background-color: #007E9C;
+	box-shadow: 0 2px 4px #1c1c1c;
+	color: #ffffff;
+	height: 70px;
+	margin: 0 auto;
+	width: 100%;
+}
+
+#container {
+	margin-top: -64px;
+	padding: 0;
+	position: relative;
+	width: 100%;
+}
+
+#mainDiv {
+	margin-top: -64px;
+	width: 100%;
+	border: 3px solid black;
+	height: 264px;
+	z-index: -1;
+}
+
+#mainDiv0 {
+	width: 10%;
+	border: 3px solid black;
+	height: 264px;
+	z-index: -1;
+	overflow-y: scroll;
+}
+
+#mainDiv1 {
+	margin-top: -264px;
+	margin-left: 12%;
+	width: 60%;
+	border: 3px solid black;
+	height: 264px;
+	z-index: -1;
+	overflow-y: scroll;
+}
+
+#report_table {
+	margin: -66px auto 0;
+	height: auto;
+	padding: 0px 0 0px;
+	width: 100%;
+	background: #fff;
+}
+
+#doctor_dropdown {
+	width: 20%;
+	background: #fff;
+	height: 200px;
+	position: absolute;
+	font: normal 14px arial;
+}
+
+#ip_change {
+	margin-left: 25%;
+	margin-top: 100px;
+	padding: 0px 0 0px;
+	width: 50%;
+	background: #fff;
+	height: 330px;
+	position: absolute;
+	border: 2px solid #79001C;
+	border-radius: 10px;
+	background-color: #EEEEEE;
+	color: #00599B;
+}
+
+#nname {
+	padding: 5px;
+	color: #fff;
+	font-size: 14px;
+	margin-left: 20px;
+	margin-top: 35px;
+	padding: 5px;
+	width: 226px;
+	background-color: #5A8CA2;
+}
+
+.btn1 {
+	background: #007E9C;
+	border-radius: 10px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 14px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	width: 217px;
+	margin-left: 200px;
+	margin-top: 50px;
+}
+
+.btn1:hover {
+	background: #3192B2;
+	text-decoration: none;
+}
+
+.btn {
+	background: #007E9C;
+	border-radius: 10px;
+	font-family: Arial;
+	color: #ffffff;
+	font-size: 14px;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+	width: 226px;
+	margin-left: 20px;
+	margin-top: 50px;
+}
+
+.btn:hover {
+	background: #3192B2;
+	text-decoration: none;
+}
+
+#Doctore_wise_Full_table {
+	float: left;
+	margin-left: 19%;
+	width: 80%;
+	background: #fff;
+	position: absolute;
+}
+
+#Doctore_wise_form {
+	height: 165px;
+	float: left;
+	width: 86%;
+	margin-top: 35px;
+	/*	border-left: 1px solid #79001C; */
+	background: #fff;
+	position: absolute;
+	font-family: arial;
+}
+
+#Doctore_wise_table {
+	height: 165px;
+	float: left;
+	margin-left: 87%;
+	margin-top: 35px;
+	width: 10%;
+	background: #fff;
+	position: absolute;
+}
+
+#patient_wise_tableTH {
+	height: 67px;
+	overflow-y: scroll;
+	float: left;
+	margin-top: 200px;
+	width: 100%;
+	background: #fff;
+	font-family: arial;
+	float: left;
+	position: relative;
+}
+
+#th_table {
+	width: 182px;
+}
+
+#patient_wise_table {
+	height: 300px;
+	overflow-y: scroll;
+	float: left;
+	margin-top: 0px;
+	width: 100%;
+	background: #fff;
+	font-family: arial;
+	float: left;
+	position: relative;
+}
+
+#response_mess {
+	font-family: Arial, Helvetica, sans-serif;
+	color: #920706;
+	font-size: 12px;
+	font-weight: normal;
+	margin-left: 12%;
+}
+
+#doc_td_value {
+	/*-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #EAEAEA;
+	background: -moz-linear-gradient(top, #FFF, #EAEAEA);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #FFF),
+		color-stop(1.0, #EAEAEA));
+	background:linear-gradient(top, rgba(0,51,102,1), rgba(85,170,238,1));	
+	background: -ms-linear-gradient(#CCC, #EEE); /*IE10*/
+	border: 1px solid #CACACA;
+	color: #444;
+	font-size: 1.0em;
+	padding: 5px 9px;
+	width: 80%;
+	margin-left: 10%;
+	
+}
+#datetimepicker_mask
+{
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #EAEAEA;
+	background: -moz-linear-gradient(top, #FFF, #EAEAEA);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #FFF),
+		color-stop(1.0, #EAEAEA));
+	border: 1px solid #CACACA;
+	color: #444;
+	font-size: 1.0em;
+	padding: 5px 9px;
+	width: 200px;
+	margin-left: 30px;
+}
+#datetimepicker_mask1
+{
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #EAEAEA;
+	background: -moz-linear-gradient(top, #FFF, #EAEAEA);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #FFF),
+		color-stop(1.0, #EAEAEA));
+	border: 1px solid #CACACA;
+	color: #444;
+	font-size: 1.0em;
+	padding: 5px 9px;
+	width: 200px;
+	margin-left: 30px;
+}
+.doc_td_value_class {
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	background-color: #EAEAEA;
+	background: -moz-linear-gradient(top, #FFF, #EAEAEA);
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0.0, #FFF),
+		color-stop(1.0, #EAEAEA));
+	border: 1px solid #CACACA;
+	color: #444;
+	font-size: 1.0em;
+	padding: 5px 9px;
+	width: 200px;
+	margin-left: 30px;
+}
+
+#doc_td_label {
+	color: #0055B8;
+	font-weight: bold;
+	
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#dcu_td
+{
+	padding:10px;
+	text-align: left; padding-left: 30px;
+	
+	color: #B20000;
+	font-weight: bold;
+	font-size: 14px;
+	width:50%;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#dcu_td_apo
+{
+	padding:15px;
+	text-align: center;
+	
+	color: #B20000;
+	font-weight: bold;
+	font-size: 14px;
+	
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.dcu_td
+{
+	padding:10px;
+	text-align: left; padding-left: 30px;
+	width:50%;
+	color: #B20000;
+	font-weight: bold;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+.dcu_td_apo
+{
+	padding:15px;
+	text-align: center; 
+	
+	color: #B20000;
+	font-weight: bold;
+	font-size: 18px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#doc_td_label_admin {
+	color: #0055B8;
+	font-weight: bold;
+	font-size: 12px;
+	padding-left: 10%;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 90%;
+}
+
+#cont_shadow {
+	width: 96%;
+	height: auto;
+	position: absolute;
+	background: #fff;
+	 margin-left: 2%;
+    margin-top: 15px;
+    box-shadow: 1px 1px 5px #000000;
+}
+#cont_shadow_apo
+{
+	
+}
+#doc_form {
+	width: 40%;
+	height: 450px;
+	padding-left: 5%;
+	padding-top: 1%;
+	margin-left: 30%;
+	margin-top: 10px;
+	position: absolute;
+	border-radius: 7px;
+	box-shadow: 1px 1px 5px #888888;
+	background: #fff;
+}
+
+#doc_form_admin {
+	width: 40%;
+	height: 560px;
+	margin-left: 30%;
+	margin-top: 10px;
+	position: absolute;
+	border-radius: 7px;
+	box-shadow: 1px 1px 5px #888888;
+	background: #fff;
+}
+
+#login_form_admin {
+	width: 40%;
+	height: 570px;
+	margin-left: 30%;
+	margin-top: 10%;
+	position: absolute;
+}
+
+#token_status_form {
+	width: 45%;
+	height: 550px;
+	margin-left:3.5%;
+	margin-top:1%;
+	
+	position: absolute;
+	border-radius:10px;
+	box-shadow: 1px 1px 5px #888888;
+	background: #fff;
+}
+#token_status_form_apo
+{
+	width: 45%;
+	height: 280px;
+	margin-left:3.5%;
+	margin-top:0.5%;
+	
+	position: absolute;
+	border-radius:10px;
+	box-shadow: 1px 1px 5px #888888;
+	background: #fff;
+}
+#doc_status_form {
+	width: 45%;
+	height: 400px;
+	margin-left:3%;
+	margin-top:2%;
+	
+	position: absolute;
+	border-radius: 10px;
+	box-shadow: 1px 1px 5px #888888;
+	background: #fff;
+}
+
+#token_status_display {
+	background: none repeat scroll 0 0 #fff;
+	border-radius: 10px;
+	box-shadow: 1px 1px 5px #888888;
+	font-family: Open Sans Condensed, Helvetica, sans-serif;
+	height: 550px;
+	margin-left: 52%;
+	margin-top:1%;
+	position: absolute;
+	width:45%;
+	position: absolute;
+}
+
+#doc_status_display {
+	background: none repeat scroll 0 0 #fff;
+	border-radius: 10px;
+	box-shadow: 1px 1px 5px #888888;
+	font-family: Open Sans Condensed, Helvetica, sans-serif;
+	height: 400px;
+	margin-left: 52%;
+	margin-top:2%;
+	position: absolute;
+	width:45%;
+	position: absolute;
+}
+#doc_status_display_apo
+{
+	background: none repeat scroll 0 0 #fff;
+	border-radius: 10px;
+	box-shadow: 1px 1px 5px #888888;
+	font-family: Open Sans Condensed, Helvetica, sans-serif;
+	height: 160px;
+	margin-left: 52%;
+	margin-top:0.5%;
+	position: absolute;
+	width:45%;
+	position: absolute;
+}
+
+#callSkip_table_div
+{
+	background: none repeat scroll 0 0 #fff;
+	border-radius: 10px;
+	box-shadow: 1px 1px 5px #888888;
+	font-family: Open Sans Condensed, Helvetica, sans-serif;
+	height: 200px;
+	margin-left: 52%;
+	margin-top:0.5%;
+	position: absolute;
+	width:45%;
+	position: absolute;
+}
+
+#token_status_display_scroll {
+	height: 510px;
+	overflow-y: scroll;
+	overflow-x: none;
+	position: absolute;
+	width: 100%;
+}
+
+
+#patients_status_form {
+	height: 510px;
+	overflow-y: scroll;
+	overflow-x: none;
+	position: absolute;
+	width: 100%;
+}
+
+#walk_patients_form
+{
+	height: 240px;
+	overflow-y: scroll;
+	overflow-x: none;
+	position: absolute;
+	width: 100%;
+}
+
+#span_text1 {
+	font-size: 14px;
+	width: 100%;
+	margin: 0px;
+	background-color: #303030;
+	color: #fff;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+#formButton {
+	margin: 0;
+	padding: 0;
+	background-image: url("../images_dqms/btn-map.png");
+	background-repeat: no-repeat;
+	border-radius: 8px;
+	font-family: Open Sans Condensed, Helvetica, sans-serif;
+	font-size: 14px;
+	color: #FFFFFF;
+	height: 40px;
+	width: 150px;
+	margin-left: 0px;
+	padding: 5px;
+}
+
+
+
+#formButton:HOVER {
+	background-image: url("../images_dqms/btn2-map-hover.png");
+	background-repeat: no-repeat;
+}
+
+#shutdown {
+	background: none repeat scroll 0 0 #fff;
+    height: 550px;
+    margin-left: 2%;
+    margin-top: 15px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    position: absolute;
+    width: 96%;
+    box-shadow: 1px 1px 5px #000000;
+}
+#status
+{
+	width: 100%;
+	position: absolute;
+	background: #fff;
+	height: 510px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	 box-shadow: 1px 1px 5px #000000;
+}
+
+#status_report
+{
+	width: 100%;
+	position: absolute;
+	background: #fff;
+	height: 410px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+#dropdown_conn {
+	background-color:#EFEFEF;
+	border: 1px solid #CACACA;
+	color: #000;
+	font-size: 1.0em;
+	padding: 5px 9px;
+	width: 220px;
+	margin-left: 30px;
+}
+
+.dropdown_conn_class {
+	background-color:#EFEFEF;
+	border: 1px solid #CACACA;
+	color: #000;
+	font-size: 1.0em;
+	padding: 5px 9px;
+	width: 90%;
+	margin-left: 10%;
+}
+
+#dropdown_conn1 {
+	background-color:#EFEFEF;
+	border: 1px solid #CACACA;
+	color: #000;
+	font-size: 1.0em;
+	padding: 5px 9px;
+	width: 220px;
+	margin-left: 30px;
+}
+
+#msg_btn {
+	background-color: #1570a6;
+	border: 0 none;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	height: 30px;
+	margin-bottom: 0;
+	padding: 5px 25px;
+	text-align: center;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+	width: auto;
+}
+
+#msg_btn:hover {
+	background: #00188F;
+	text-decoration: none;
+}
+
+.msg_btn {
+	
+	border: 0 none;
+	color: #fff;
+	cursor: pointer;
+	display: inline-block;
+	height: 30px;
+	margin-bottom: 0;
+	padding: 5px 25px;
+	text-align: center;
+	border-radius:10px;
+	
+	
+	
+	color: #013773;
+	font-size: 14px;
+	font-family: Arial, Helvetica, sans-serif;
+	background: rgba(230, 168, 12, 1);
+	background: -moz-linear-gradient(top, rgba(230, 168, 12, 1) 0%,
+		rgba(252, 205, 77, 1) 36%, rgba(248, 181, 0, 1) 57%,
+		rgba(230, 179, 49, 1) 100% );
+	background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(230, 168, 12
+		, 1) ), color-stop(36%, rgba(252, 205, 77, 1) ),
+		color-stop(57%, rgba(248, 181, 0, 1) ),
+		color-stop(100%, rgba(230, 179, 49, 1) ) );
+	background: -webkit-linear-gradient(top, rgba(230, 168, 12, 1) 0%,
+		rgba(252, 205, 77, 1) 36%, rgba(248, 181, 0, 1) 57%,
+		rgba(230, 179, 49, 1) 100% );
+	background: -o-linear-gradient(top, rgba(230, 168, 12, 1) 0%,
+		rgba(252, 205, 77, 1) 36%, rgba(248, 181, 0, 1) 57%,
+		rgba(230, 179, 49, 1) 100% );
+	background: -ms-linear-gradient(top, rgba(230, 168, 12, 1) 0%,
+		rgba(252, 205, 77, 1) 36%, rgba(248, 181, 0, 1) 57%,
+		rgba(230, 179, 49, 1) 100% );
+	background: linear-gradient(to bottom, rgba(230, 168, 12, 1) 0%,
+		rgba(252, 205, 77, 1) 36%, rgba(248, 181, 0, 1) 57%,
+		rgba(230, 179, 49, 1) 100% );
+	filter: progid:DXImageTransform.Microsoft.gradient(  startColorstr='#e6a80c',
+		endColorstr='#e6b331', GradientType=0 );
+	
+}
+
+.msg_btn:hover {
+	background:#007E9C;
+	text-decoration: none;
+	border-radius:10px;
+	color:#fff;
+}
+
+#Doctore_wise_form {
+    background: none repeat scroll 0 0 #fff;
+    float: left;
+    font-family: arial;
+    
+    height: 165px;
+    margin-top: 15px;
+    position: absolute;
+    width: 88%;
+}
+#Doctore_wise_image {
+    background: none repeat scroll 0 0 #fff;
+    float: left;
+     border:1px solid black;
+    height: 140px;
+    margin-left: 89%;
+    margin-top: 15px;
+    position: absolute;
+    width: 10%;
+}
+
+#patient_wise_tableTH {
+    background: none repeat scroll 0 0 #fff;
+    float: left;
+    
+    font-family: arial;
+    height: 390px;
+    margin-top: 170px;
+    overflow-y: scroll;
+    position: relative;
+    width: 100%;
+}
+/*--------  Alert css start-------------*/
+#dialogoverlay {
+	display: none;
+	opacity: .8;
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	background: #FFF;
+	width: 100%;
+	z-index: 10;
+}
+
+#dialogbox {
+	display: none;
+	position: fixed;
+	background: #4B7DBB;
+	border-radius: 7px;
+	width: 350px;
+	z-index: 10;
+}
+
+#dialogbox>div {
+	background: #FFF;
+	margin: 8px;
+}
+
+#wrap {
+	width: 1320px;
+	height: 600px;
+	padding: 0;
+	position: relative;
+	left: -100px;
+	top: 0px;
+	overflow: hidden;
+}
+
+#frame { /* Example size! */
+	height: 400px; /* original height */
+	width: 100%; /* original width */
+}
+
+#frame {
+	height: 500px; /* new height (400 * (1/0.8) ) */
+	width: 125%; /* new width (100 * (1/0.8) )*/
+	transform: scale(0.9);
+	transform-origin: 0 0;
+}
+
+#dialogbox>div>#dialogboxbody {
+	background: #333;
+	font-size: 16px;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	padding: 20px;
+	color: #FFF;
+}
+
+#dialogbox>div>#dialogboxfoot {
+	background: #fff;
+	padding: 10px;
+	text-align: right;
+}
+/*----------Alert css stop-----------*/
+
+
+#footer {
+	background-color: #007E9C;
+	bottom: 0;
+	color: #ffffff;
+	height: auto;
+	position: fixed;
+	width: 100%;
+	font: normal 14px arial;
+}

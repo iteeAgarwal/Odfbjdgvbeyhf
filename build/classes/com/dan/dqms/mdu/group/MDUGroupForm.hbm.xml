@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated May 20, 2014 12:11:24 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+	<class name="org.dqms.db.GroupMDU" table="group_mdu_details">
+		<meta attribute="class-description">
+			This class contains the Token detail.
+		</meta>
+		<id name="mdu_id" column="mdu_id">
+			<generator class="assigned" />
+		</id>
+
+		<property name="room_no_list" column="room_no_list" type="string" />
+
+		<property name="mdu_name" column="mdu_name" type="string" />
+
+	</class>
+</hibernate-mapping>

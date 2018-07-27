@@ -1,0 +1,49 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated May 20, 2014 12:11:24 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+	<class name="org.dqms.db.User" table="user_details">
+		<meta attribute="class-description">
+			This class contains the Doctor detail.
+		</meta>
+		<id name="user_id" column="user_id">
+			<generator class="increment" />
+		</id>
+
+
+		<property name="role_id" column="role_id" type="int" />
+
+		<property name="name" column="name" type="string" />
+         <property name="doc_id" column="doc_id" type="string" />
+		<property name="phone_no" column="phone_no" type="string" />
+
+		<property name="email_id" column="email_id" type="string" />
+
+		<property name="username" column="username" type="string" />
+
+		<property name="password" column="password" type="string" />
+
+		<property name="designation" column="designation" type="string" />
+
+		<property name="depart_id" column="depart_id" type="int" />
+
+		<property name="room_id" column="room_id" type="int" />
+
+		<property name="view1" column="view" type="int" />
+		
+		<property name="login" column="login" type="boolean" />
+
+		<property name="last_updated_on" column="last_updated_on"
+			type="long" />
+
+		<property name="creation_date" column="creation_date" type="long" />
+		
+		<property name="login_time" column="login_time" type="long" />
+		<property name="logout_time" column="logout_time" type="long" />
+
+
+
+
+	</class>
+</hibernate-mapping>

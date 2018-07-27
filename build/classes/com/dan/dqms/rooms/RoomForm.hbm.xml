@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated May 20, 2014 12:11:24 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+	<class name="org.dqms.db.Room" table="room_details">
+		<meta attribute="class-description">
+			This class contains the Token detail.
+		</meta>
+		<id name="room_id" column="room_id">
+			<generator class="increment" />
+		</id>
+
+		<property name="room_no" column="room_no" type="string" />
+
+		<property name="wdu_id" column="wdu_id" type="int" />
+
+		<property name="depart_id" column="depart_id" type="int" />
+
+
+
+		<property name="location" column="location" type="string" />
+
+
+	</class>
+</hibernate-mapping>

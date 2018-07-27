@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated May 20, 2014 12:11:24 PM by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+	<class name="org.dqms.db.Device" table="device_details">
+		<meta attribute="class-description">
+			This class contains the Token detail.
+		</meta>
+		<id name="device_id" column="device_id">
+			<generator class="increment" />
+		</id>
+
+		<property name="device_name" column="device_name" type="string" />
+
+		<property name="type" column="type" type="int" />
+
+		<property name="ip" column="ip" type="string" />
+
+		<property name="mac_address" column="mac_address" type="string" />
+
+		<property name="address" column="address" type="string" />
+
+		<property name="location" column="location" type="string" />
+
+		<property name="last_updated" column="last_updated" type="long" />
+
+		<property name="health_check" column="health_check" type="boolean" />
+
+		<property name="last_hit_time" column="last_hit_time" type="long" />
+
+
+</class>
+</hibernate-mapping>
